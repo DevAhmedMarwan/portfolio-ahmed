@@ -5,7 +5,7 @@ const projects = [
     title: "Book Store",
     description:
     "A feature-rich book platform inspired by modern reading apps, built with cutting-edge frontend technologies. The project includes social authentication with Google and Facebook, infinite scroll with pagination, light/dark theme support, and localization for multiple languages. It showcases both grid and list layouts, a detailed single book view, caching strategies, state management using Zustand, and robust error handling. Designed with scalability, performance, and user experience in mind.",
-    image: "/public/projects/BookStore.png",
+    image: "/projects/BookStore.png",
     tags: ["React", "Tailwind", "Firebase Login with Google", "Localization", "Theming" , "Caching" , "Pagination" , "Error Handling" , "Zustand" , "Api"],
     link: "#",
     github: "https://github.com/DevAhmedMarwan/BookStore",
@@ -14,7 +14,7 @@ const projects = [
     title: "localization",
     description:
     "A multilingual product showcase platform built with React and Next.js, designed to display products with their name, price, and description. The project integrates a multilingual API supporting four languages: Arabic, English, Urdu, and Indonesian, allowing users to seamlessly switch between languages. It leverages Zustand for state management, is fully responsive across devices, and incorporates best practices for performance and user experience. Ideal for showcasing products in an internationalized, scalable, and user-friendly way.",
-    image: "/public/projects/localization.png",
+    image: "/projects/localization.png",
     tags: ["Api", "Zustand", "localization", "Tailwind"],
     link: "#",
     github: "https://github.com/DevAhmedMarwan/Localization",
@@ -23,7 +23,7 @@ const projects = [
     title: "Elmo-Website",
     description:
       "A full-featured appointment booking platform with a comprehensive dashboard, built using modern frontend technologies. The platform allows users to schedule, manage, and track appointments seamlessly. It incorporates advanced UI components from Shadcn/ui and Material UI, efficient routing, API integration, and pagination for large datasets. Designed with responsiveness, usability, and scalability in mind, making it suitable for both users and administrators to manage appointments effectively.",
-    image: "/public/projects/Elmo-Website.png",
+    image: "/projects/Elmo-Website.png",
     tags: ["shadcn/ui", "Material UI", "Api", "Pagination" , "Routing"],
     link: "#",
     github: "https://github.com/DevAhmedMarwan/Elmo-Website",
@@ -32,7 +32,7 @@ const projects = [
     title: "MediTro",
     description:
       "A full-featured doctors directory and appointment booking platform built with modern frontend technologies. The platform displays available doctors with their names, specialties, and schedules, allowing users to easily book appointments. It integrates with Strapi for managing data via APIs, supports efficient routing, and includes pagination for handling large datasets. The website is fully responsive, scalable, and designed with usability and performance in mind, providing a seamless experience for both patients and administrators.",
-    image: "/public/projects/MediTro.png",
+    image: "/projects/MediTro.png",
     tags: ["Strapi", "Api", "Routing", "Pagination"],
     link: "#",
     github: "https://github.com/DevAhmedMarwan/MediTro",
