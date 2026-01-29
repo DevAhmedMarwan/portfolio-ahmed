@@ -8,31 +8,31 @@ const testimonials = [
     author: "Mohamed Marwan",
     role: "Senior Flutter Developer (Android & iOS)",
     avatar:
-      "public/Mohamed.jpg",
+      "/Mohamed.jpg",
   },
   {
     quote:
       "Working with Ahmed was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
-    avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      author: "Mohamed Marwan",
+      role: "Senior Flutter Developer (Android & iOS)",
+      avatar:
+      "/Mohamed.jpg",
   },
   {
     quote:
       "Ahmed expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
-    avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+      author: "Mohamed Marwan",
+      role: "Senior Flutter Developer (Android & iOS)",
+      avatar:
+      "/Mohamed.jpg",
   },
   {
     quote:
       "Not only is Ahmed technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
+    author: "Mohamed Marwan",
+    role: "Senior Flutter Developer (Android & iOS)",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "/Mohamed.jpg",
   },
 ];
 
@@ -128,6 +128,7 @@ export const Testimonials = () => {
               <div className="flex gap-2">
                 {testimonials.map((_, idx) => (
                   <button
+                  key={idx}
                     onClick={() => setActiveIdx(idx)}
                     className={`w-2 h-2 rounded-full transition-all duration-300 ${
                       idx === activeIdx

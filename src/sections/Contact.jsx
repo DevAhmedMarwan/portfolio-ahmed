@@ -39,6 +39,10 @@ export const Contact = () => {
     message: "",
   });
   const [isLoading, setIsLoading] = useState(false);
+  //--------------------------------------------
+  //ده لتخزين حالة الإرسال بعد الضغط:
+  //type → نجاح أو خطأ.
+  //message → الرسالة اللي هتظهر للمستخدم.
   const [submitStatus, setSubmitStatus] = useState({
     type: null, // 'success' or 'error'
     message: "",
@@ -50,16 +54,17 @@ export const Contact = () => {
     setIsLoading(true);
     setSubmitStatus({ type: null, message: "" });
     try {
+      //✅ قراءة مفاتيح EmailJS
       const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
       const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-
+      //تحقق إن المفاتيح موجودة
       if (!serviceId || !templateId || !publicKey) {
         throw new Error(
           "EmailJS configuration is missing. Please check your environment variables."
         );
       }
-
+      //✅ إرسال الإيميل فعليًا
       await emailjs.send(
         serviceId,
         templateId,
@@ -67,21 +72,26 @@ export const Contact = () => {
           name: formData.name,
           email: formData.email,
           message: formData.message,
+          user_referrer: window.location.href, // الصفحة اللي المستخدم فيها
+          user_browser: navigator.userAgent,   // معلومات المتصفح
+          user_os: navigator.platform          // نظام التشغيل
         },
         publicKey
       );
-
+      
+      //لو نجح، نحدث الحالة للنجاح
       setSubmitStatus({
         type: "success",
         message: "Message sent successfully! I'll get back to you soon.",
       });
+      //نمسح الفورم
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error("EmailJS error:", error);
+      console.error("EmailJS error:", err);
       setSubmitStatus({
         type: "error",
         message:
-          error.text || "Failed to send message. Please try again later.",
+          err.text || "Failed to send message. Please try again later.",
       });
     } finally {
       setIsLoading(false);
@@ -138,12 +148,12 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  type="email"
                   className="block text-sm font-medium mb-2"
                 >
                   Email
                 </label>
                 <input
+                type="email"
                   required
                   placeholder="your@email.com"
                   value={formData.email}
