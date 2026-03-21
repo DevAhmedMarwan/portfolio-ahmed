@@ -19,15 +19,15 @@ const contactInfo = [
   },
   {
     icon: Phone,
-    label: "Phone",
+    label: "WhatsApp",
     value: "+966 545362873",
-    href: "tel:+966545362873",
+    href: "https://wa.me/966545362873",
   },
   {
     icon: MapPin,
     label: "Location",
     value: "Riyadh, Saudi Arabia",
-    href: "#",
+    href: "https://www.google.com/maps?q=Riyadh,+Saudi+Arabia",
   },
 ];
 

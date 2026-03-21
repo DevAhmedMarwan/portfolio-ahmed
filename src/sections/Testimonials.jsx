@@ -13,26 +13,10 @@ const testimonials = [
   {
     quote:
       "Working with Ahmed was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-      author: "Mohamed Marwan",
-      role: "Senior Flutter Developer (Android & iOS)",
+      author: "Mahmoud Saber",
+      role: "Co-Founder & CTO at Elmo Tech",
       avatar:
-      "/Mohamed.jpg",
-  },
-  {
-    quote:
-      "Ahmed expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-      author: "Mohamed Marwan",
-      role: "Senior Flutter Developer (Android & iOS)",
-      avatar:
-      "/Mohamed.jpg",
-  },
-  {
-    quote:
-      "Not only is Ahmed technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "Mohamed Marwan",
-    role: "Senior Flutter Developer (Android & iOS)",
-    avatar:
-      "/Mohamed.jpg",
+      "/475796305_1309080683462785_1569805970112543689_n.jpg",
   },
 ];
 

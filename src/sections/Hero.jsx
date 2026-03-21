@@ -15,7 +15,6 @@ const skills = [
   "JavaScript",
   "Bootstrap",
   "Sass",
-  "jQuery",
   "React",
   "Next.js",
   "TypeScript",
