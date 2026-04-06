@@ -103,7 +103,7 @@ export const Hero = () => {
                 </Button>
               </a>
               <AnimatedBorderButton>
-                <a href="\PDF\Ahmed Marwan .pdf" download className="flex items-center gap-2">
+                <a href="\PDF\AhmedAnwarMarwanResume.pdf" download className="flex items-center gap-2">
                   <Download className="w-5 h-5" />
                   Download CV
                 </a>

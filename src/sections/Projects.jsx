@@ -2,31 +2,41 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "Booking",
+    description: "Appointment Booking Web App: A full-featured appointment booking platform that allows users to browse available services, book appointments seamlessly, and manage their sessions through a secure authentication system. The application supports smooth navigation, pagination for large datasets, and efficient API-driven data handling. Designed with a clean and intuitive user experience, the project follows scalable architecture and clean code practices to ensure long-term maintainability.",
+    image: "/projects/booking.png",
+    tags: ["next.js","react.js","shadcn/ui", "Material UI", "Api", "Pagination", "Routing"],
+    link: "https://github.com/DevAhmedMarwan/Booking",
+    github: "https://github.com/DevAhmedMarwan/Booking",
+  },
+  {
     title: "Book Store",
     description:
-    "A feature-rich book platform inspired by modern reading apps, built with cutting-edge frontend technologies. The project includes social authentication with Google and Facebook, infinite scroll with pagination, light/dark theme support, and localization for multiple languages. It showcases both grid and list layouts, a detailed single book view, caching strategies, state management using Zustand, and robust error handling. Designed with scalability, performance, and user experience in mind.",
+      "A feature-rich book platform inspired by modern reading apps, built with cutting-edge frontend technologies. The project includes social authentication with Google and Facebook, infinite scroll with pagination, light/dark theme support, and localization for multiple languages. It showcases both grid and list layouts, a detailed single book view, caching strategies, state management using Zustand, and robust error handling. Designed with scalability, performance, and user experience in mind.",
     image: "/projects/BookStore.png",
-    tags: ["React", "Tailwind", "Firebase Login with Google", "Localization", "Theming" , "Caching" , "Pagination" , "Error Handling" , "Zustand" , "Api"],
+    tags: [
+      "React",
+      "Tailwind",
+      "Firebase Login with Google",
+      "Localization",
+      "Theming",
+      "Caching",
+      "Pagination",
+      "Error Handling",
+      "Zustand",
+      "Api",
+    ],
     link: "https://github.com/DevAhmedMarwan/BookStore",
     github: "https://github.com/DevAhmedMarwan/BookStore",
   },
   {
     title: "localization",
     description:
-    "A multilingual product showcase platform built with React and Next.js, designed to display products with their name, price, and description. The project integrates a multilingual API supporting four languages: Arabic, English, Urdu, and Indonesian, allowing users to seamlessly switch between languages. It leverages Zustand for state management, is fully responsive across devices, and incorporates best practices for performance and user experience. Ideal for showcasing products in an internationalized, scalable, and user-friendly way.",
+      "A multilingual product showcase platform built with React and Next.js, designed to display products with their name, price, and description. The project integrates a multilingual API supporting four languages: Arabic, English, Urdu, and Indonesian, allowing users to seamlessly switch between languages. It leverages Zustand for state management, is fully responsive across devices, and incorporates best practices for performance and user experience. Ideal for showcasing products in an internationalized, scalable, and user-friendly way.",
     image: "/projects/localization.png",
     tags: ["Api", "Zustand", "localization", "Tailwind"],
     link: "https://github.com/DevAhmedMarwan/Localization",
     github: "https://github.com/DevAhmedMarwan/Localization",
-  },
-  {
-    title: "Elmo-Website",
-    description:
-      "A full-featured appointment booking platform with a comprehensive dashboard, built using modern frontend technologies. The platform allows users to schedule, manage, and track appointments seamlessly. It incorporates advanced UI components from Shadcn/ui and Material UI, efficient routing, API integration, and pagination for large datasets. Designed with responsiveness, usability, and scalability in mind, making it suitable for both users and administrators to manage appointments effectively.",
-    image: "/projects/Elmo-Website.png",
-    tags: ["shadcn/ui", "Material UI", "Api", "Pagination" , "Routing"],
-    link: "https://github.com/DevAhmedMarwan/Elmo-Website",
-    github: "https://github.com/DevAhmedMarwan/Elmo-Website",
   },
   {
     title: "MediTro",
