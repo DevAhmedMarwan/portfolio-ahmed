@@ -1,19 +1,17 @@
 const experiences = [
    {
     period: "Oct 2025 — Present",
-    role: "Junior Frontend Engineer",
-    company: "Tab agency",
-    description:
-    "Currently working at a software company in Egypt, where I have gained hands-on experience and advanced my skills in React and Next.js. I actively contribute to building and maintaining frontend features, focusing on clean code, reusable components, and responsive design. Through continuous practice and real project involvement, I have significantly improved my understanding of modern frontend development, performance optimization, and best practices.",
+    role: "Mid Senior Frontend Developer",
+    company: "Elmo Tech AR",
+    description: "Built scalable React.js & Next.js apps, including a doctor appointment booking dashboard, integrating APIs and delivering clean, high-performance UI.",
     technologies: ["React", "TypeScript", "Next.js", "Git", "HTML", "CSS", "JavaScript" , "Tailwind", "state management", "APIs" , "Responsive Design" , "Performance Optimization"],
     current: true,
   },
   {
-    period: "Jan 2025 – Sep 2025 (9 months)",
-    role: "Junior Developer",
-    company: "EraaSoft",
-    description:
-      "A full-featured doctors directory and appointment booking platform built with modern frontend technologies. The platform displays available doctors with their names, specialties, and schedules, allowing users to easily book appointments. It integrates with Strapi for managing data via APIs, supports efficient routing, and includes pagination for handling large datasets. The website is fully responsive, scalable, and designed with usability and performance in mind, providing a seamless experience for both patients and administrators.",
+    period: "Jun 2024 – Oct 2025 (16 months)",
+    role: "Junior Frontend Developer",
+    company: "Tab Agency",
+    description:"Contributed to educational web projects, building responsive UI components using React.js & Next.js.",
     technologies: [
       "React",
       "HTML",
@@ -36,11 +34,10 @@ const experiences = [
     current: false,
   },  
   {
-    period: "2024 — 2025",
-    role: "Freelance Developer",
-    company: "Mostaql",
-    description:
-      "Worked as a freelance frontend developer on Mostaql, delivering responsive and user-friendly websites using HTML, CSS, and JavaScript. I focused on converting designs into clean, well-structured code, ensuring cross-browser compatibility, and optimizing performance. Collaborated with clients to understand requirements, apply feedback, and deliver high-quality results on time.",
+    period: "Jan 2024 – Jun 2024 (6 months)",
+    role: "Frontend Developer",
+    company: "Eraa Soft",
+    description:"Built responsive UIs using React.js & Next.js with reusable components and optimized performance.",
     technologies: ["Html", "Css", "JavaScript"],
     current: false,
   },
